@@ -3,6 +3,8 @@ library(DESeq2)
 library(cowplot)
 theme_set(cowplot::theme_cowplot())
 library(argparse)
+library(EWCE)
+library(ggVennDiagram)
 
 # Set up command line arguments
 parser <- ArgumentParser()

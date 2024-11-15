@@ -1,8 +1,11 @@
 library(tidyverse)
 library(DESeq2)
 library(cowplot)
-theme_set(cowplot::theme_cowplot())
 library(argparse)
+library(ggpubr)
+library(patchwork)
+library(FactoMineR)
+theme_set(cowplot::theme_cowplot())
 
 # Set up command line arguments
 parser <- ArgumentParser()
